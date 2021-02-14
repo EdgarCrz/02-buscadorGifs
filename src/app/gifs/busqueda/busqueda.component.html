@@ -1,0 +1,11 @@
+<h5>Buscar:</h5>
+<!--(keyup.enter) esta escuchando un evento, cuando se termine de oprimir la tecla enter  -->
+<!-- ejecutara el metodo y le enviara la informacion de la caja de texto -->
+<!-- #txtBuscar es una referencia local -->
+<input
+  type="text"
+  class="form-control"
+  placeholder="Buscar gifs..."
+  (keyup.enter)="buscar()"
+  #txtBuscar
+/>
